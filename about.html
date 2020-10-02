@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- リセットCSSここから -->
+    <link rel="stylesheet" href="styles/vendors/reset.css" />
+    <!-- adobe fonts -->
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pca4ldo",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- smooth scroll.js-->
+    <script src="scripts/libs/smooth-scroll.js"></script>
+    <title>MORIWAKI Video</title>
+  </head>
+  <body>
+    <div class="global-container">
+      <header class="header">
+        <div class="header__bg-color"></div>
+        <div class="header__inner">
+          <h1 class="header__logo">
+            <a href="index.html">
+              <img class="logo" src="images/header-logo.svg" alt="" />
+            </a>
+          </h1>
+          <a class="header__btn" href="index.html"> TOPへ戻る </a>
+        </div>
+      </header>
+
+      <main class="about-us">
+        <section class="about-us__main-visual">
+          <h2 class="page-title">
+            <span class="page-title--sub">About</span>
+            私たちについて
+          </h2>
+          <figure class="about-us__main-visual__visual">
+            <img src="images/S__23953523.jpg" alt="" />
+          </figure>
+        </section>
+
+        <section class="vision">
+          <div class="vision__inner">
+            <span class="about-us__sub-title">VISION</span>
+            <h2 class="about-us__main-title">幸せな瞬間を、もっと世界に。</h2>
+            <p>
+              友達や家族や仕事仲間―――
+              毎日一緒に過ごしていると、一緒にいることが当たり前になってしまう関係性に再び目を向け、
+              今ある幸せを再認識してほしいという思いで、ラブグラフは立ち上がりました。
+              大切なことは、一人ひとりが自分の身の回りにある小さな幸せに気付くことです。
+              その感性が身につけば、私たちは人に優しさを与えることができ、その優しさの連鎖は世界を救うと信じています。
+            </p>
+          </div>
+        </section>
+        <section class="mission">
+          <div class="mission__inner">
+            <span class="about-us__sub-title">VISION</span>
+            <h2 class="about-us__main-title">幸せな瞬間を、もっと世界に。</h2>
+            <p>
+              友達や家族や仕事仲間―――
+              毎日一緒に過ごしていると、一緒にいることが当たり前になってしまう関係性に再び目を向け、
+              今ある幸せを再認識してほしいという思いで、ラブグラフは立ち上がりました。
+              大切なことは、一人ひとりが自分の身の回りにある小さな幸せに気付くことです。
+              その感性が身につけば、私たちは人に優しさを与えることができ、その優しさの連鎖は世界を救うと信じています。
+            </p>
+          </div>
+        </section>
+        <section class="about-company">
+          <div class="about-company__inner">
+            <h2 class="about-company__title">会社概要</h2>
+            <ul class="about-company__wrapper">
+              <li class="about-company__list">
+                <span class="about-company__header"> 会社名 </span>
+                <span class="about-company__text"> 株式会社リゲバラ </span>
+              </li>
+              <li class="about-company__list">
+                <span class="about-company__header"> 所在地 </span>
+                <span class="about-company__text">
+                  〒530-0001 大阪府大阪市北区梅田一丁目2番2号
+                  大阪駅前第2ビル2階5-6号室
+                </span>
+              </li>
+              <li class="about-company__list">
+                <span class="about-company__header">お問い合わせ先</span>
+                <span class="about-company__text"
+                  ><a class="mail" href="mailto:toshikimoriwaki@gmail.com"
+                    >toshikimoriwaki@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li class="about-company__list">
+                <span class="about-company__header">設立</span>
+                <span class="about-company__text"> 2020年（令和2年） </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__page-top">
+            <a class="page-top" href="#">
+              <i class="fa fa-chevron-up"></i>
+              PAGE TOP</a
+            >
+          </div>
+          <ul class="footer__link-wrapper">
+            <li class="footer__li">
+              <a class="footer__link" href="reserve.html">トップページに戻る</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="reserve.html"> ご予約</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="contact.html"> お問い合わせ</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="terms.html"> 利用規約</a>
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="privacy.html">
+                プライバシーポリシー</a
+              >
+            </li>
+            <li class="footer__li">
+              <a class="footer__link" href="law.html">
+                特定商取引法に基づく表記</a
+              >
+            </li>
+          </ul>
+          <!-- <h2 class="footer__logo">
+            <a class="footer__logo__link" href="#">
+              <img src="images/header-logo(fff)-03.svg" alt="" />
+            </a>
+          </h2>
+         
+          <ul class="footer__text-wrapper">
+            <li>株式会社MORIWAKI Video</li>
+            <li>大阪府大阪市北区</li>
+            <li>tel.090-9275-8068</li>
+          </ul> -->
+          <ul class="sns-btns">
+            <li class="sns-btn">
+              <a
+                href="https://twitter.com/to_s_ki330"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="sns-link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="sns-btn">
+              <a
+                href="https://www.instagram.com/toshiki_330"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="sns-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="sns-btn">
+              <a
+                href="https://www.youtube.com/channel/UCN-Krh3H_HoSTTC8NCfUMbA"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="sns-link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+          <small class="copy-right"
+            >&copy;MORIWAKI Video all rights reserved.</small
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!-- global-menu.js -->
+    <script src="scripts/libs/global-menu.js"></script>
+  </body>
+</html>
